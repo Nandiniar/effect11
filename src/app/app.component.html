@@ -1,0 +1,10 @@
+<h1>Computed signal</h1>
+<h1>{{userName}}</h1>
+<button (click)="userName.set('sam')">Update username</button>
+
+<button (click)="toggleValue()">toggle Value</button>
+<h1>{{count()}}</h1>
+
+@if(displayHeading){
+<h1 style="background-color:green">Page Heading</h1>
+}
